@@ -55,6 +55,10 @@ CityCode = 城市代码(6位数字)
 [Whitelist]
 IDs = 你的Telegram用户ID(多个用逗号分隔)
 
+
+
+
+
 #关于发送图片功能的特殊说明
 本项目支持TelegramBot，程序可以查找AI返回结果的特定关键词来发送图片，特定关键词格式为[示例图片.jpg]，存放到IMAG文件夹中。
 提示词示例：你需要根据讨论的话题来选择照片，需要已有照片和目前的聊天内容必须相近才可以输出
@@ -86,7 +90,6 @@ IDs = 你的Telegram用户ID(多个用逗号分隔)
 
 ## 项目结构
 
-```
 TelegramBotV1.1/
 ├── Roles/                # 角色预设文件夹
 │   └── 1.json           # 角色预设文件
@@ -97,7 +100,9 @@ TelegramBotV1.1/
 ├── main.py               # 程序入口
 ├── SearchWeather.py       # 天气查询模块
 └── requirements.txt      # 依赖列表
-```
+
+
+
 
 ## 注意事项
 
